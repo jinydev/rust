@@ -35,7 +35,26 @@
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="/assets/css/theme.min.css">
-		<title>JinyRust</title>
+		<link rel="stylesheet" href="/assets/css/jiny.css">
+		
+
+		<!--SEO-->
+        {%- if page.title -%}
+            <title>Rust | {{ page.title }}</title>
+            <meta name="title" content="{{ page.title }}" />
+        {%- else -%}
+            <title>{{ site.title }}</title>
+        {%- endif -%}
+
+        {%- if page.description -%}
+            <meta name="description" content="{{ page.description }}" />
+        {%- endif -%}
+
+        {%- if page.keyword -%}
+            <meta name="keyword" content="{{ page.keyword }}" />
+        {%- else -%}
+            <meta name="keyword" content="javascript" />
+        {%- endif -%}
 	</head>
 
 <body class="bg-white">

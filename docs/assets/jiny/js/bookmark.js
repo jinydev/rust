@@ -28,4 +28,4 @@ class BookMark extends HTMLElement {
     }
 }
 
-customElements.define('xx-book-mark', BookMark);
+customElements.define('jiny-book-mark', BookMark);

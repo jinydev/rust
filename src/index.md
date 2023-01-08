@@ -3,14 +3,45 @@ layout: home
 
 ---
 
-# Rust
+# Rust 소개
+> 참고 : 한줄한줄 짜면서 익히는 러스트 프로그래밍,(인사이트)
 
 
-<xx-book-mark>소개</xx-book-mark>
-러스트는 ....
+* 러스트의 특징과목표
+* 러스트 문법 살펴보기
+* 러스트를사용할 경우와 사용하지 말아야할경우
+* 첫 번째 러스트 프로그램 만들기
+* 객체 지향 언어 및 그 외 언어와 러스트 비교 설명
 
-<xx-book-mark>설치</xx-book-mark>
+
+<jiny-book-mark>소개</jiny-book-mark>
+
+## 러스트의 탄생과 인기
+
+러스트는 빠른 속도와 안정을 가진 언어 입니다.
+
+러스트는 스택오버플로에서 해마다 실시하는 개발자 대상 설문에서 2016- 2021년 
+에 '가장 사랑받는 프로그래밍 언어'로 선정되었다.
+사랑 받는 프로그래밍 언어이지, 가장 많이 쓰는 언어는 아니다.
+아직 태어난지 얼마 되지 않아, 사용층은 많지는 않지만, 앞으로 많은 사용자들이 사용할 언어로 기대한다.
+
+
+<jiny-book-mark>설치</jiny-book-mark>
+
+## 설치
+
 먼저 러스르를 설치합니다.
+https://rustup.rs 에서 제공하는 방법으로 설치를 합니다.
 
-<xx-book-mark>확인</xx-book-mark>
+* [윈도우 설치](/setup/windows)
+
+
+<jiny-book-mark>Hello World</jiny-book-mark>
+
+## Hello World
+러스트로 간단한 첫 프로그램을 하나 만들어 보는 것으로 하겠습니다.
+
+
+
+<jiny-book-mark>확인</jiny-book-mark>
 실행확인...
